@@ -54,7 +54,10 @@ nav ul a{
 }
 button{
     float: right;
-    margin-top: 0px
+    margin-top: 0px;
+    color: rgb(80, 65, 65);
+    border-radius: 30px;
+ 
 }
 @media only screen and (max-width: 600px) {
     nav {
