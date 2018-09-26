@@ -9,13 +9,14 @@ html,body{
 }
 body{
     margin: 0px;
+    
 }
 nav{
     display:inline-block;
     height: 100%;
     width: 30%;
     background-color: rgba(0, 0, 0, 0.5);
-    overflow-x: hidden;
+    overflow: hidden;
 }
 nav ul{
 
@@ -57,7 +58,6 @@ button{
     margin-top: 0px;
     color: rgb(80, 65, 65);
     border-radius: 30px;
- 
 }
 @media only screen and (max-width: 600px) {
     nav {
@@ -83,6 +83,9 @@ button{
     }
 
 
+}
+::-webkit-scrollbar { 
+    display: none; 
 }
 
 /* @media 

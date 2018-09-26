@@ -9,3 +9,9 @@ function widthChangein(){
     nav.style.width = "30%";
  
 }
+
+// function widthChangein(){
+//     nav.style.width = "30%";
+//    nav.style.marginLeft = "300px";
+
+// }
